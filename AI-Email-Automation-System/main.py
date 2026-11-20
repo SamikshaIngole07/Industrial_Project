@@ -1,8 +1,7 @@
 
 import getpass
-
-from AI_mail_generator import generate_email
-from Gmail_automation import send_mail
+from email_generator import generate_email
+from email_sender import send_mail
 
 # Gmail details
 sender_email = input("Enter your Gmail address: ")
