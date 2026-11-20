@@ -1,0 +1,22 @@
+# ==============================================================
+#  AI EMAIL AUTOMATION SYSTEM
+#  Generate emails with a local AI model and send them via Gmail
+# ==============================================================
+
+
+# --------------------------------------------------------------
+#  SYSTEM REQUIREMENTS  (install separately, not through pip)
+# --------------------------------------------------------------
+#  Python        : 3.10 or above
+#  AI Runtime    : Ollama           ->  https://ollama.com/
+#  AI Model      : Llama 3.2 (1B)   ->  ollama pull llama3.2:1b
+#  Email Service : Gmail account with an App Password
+#  SMTP Server   : smtp.gmail.com (SSL, port 465)
+#  Code Editor   : Visual Studio Code (optional)
+
+
+# --------------------------------------------------------------
+#  PYTHON DEPENDENCIES  (installed with pip)
+#  Run:  pip install -r requirements.txt
+# --------------------------------------------------------------
+ollama
