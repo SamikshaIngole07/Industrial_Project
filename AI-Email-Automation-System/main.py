@@ -1,10 +1,12 @@
 
+import getpass
+
 from AI_mail_generator import generate_email
 from Gmail_automation import send_mail
 
 # Gmail details
-sender_email = "shingole2007@gmail.com"
-app_password = "frdgejzicjdyzyaw"
+sender_email = input("Enter your Gmail address: ")
+app_password = getpass.getpass("Enter your Gmail App Password: ")
 
 # Receiver details
 receiver_email = input("Enter receiver email: ")
@@ -15,7 +17,6 @@ sender_name = input("Enter your name: ")
 
 # Project details
 subject = input("Enter project subject: ")
-
 instructions = input("What do you want to communicate? : ")
 
 # Project folder path
@@ -52,3 +53,4 @@ if choice.lower() == "yes":
 
 else:
     print("Email sending cancelled.")
+
