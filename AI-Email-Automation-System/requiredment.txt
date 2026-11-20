@@ -1,0 +1,17 @@
+# =====================================
+# AI Email Automation System
+# =====================================
+
+# Programming Language :-Python 3.10 or above
+
+# AI Runtime :-Ollama
+
+# AI Model :-Llama 3.2 (1B)
+
+# Code Editor :-Visual Studio Code
+
+# Email Service:- Gmail Account with App Password
+# SMTP Server: smtp.gmail.com
+
+# Python Dependencies
+ollama
